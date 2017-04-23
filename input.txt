@@ -1,0 +1,17 @@
+coches crea marca modelo *matricula
+coches anyade marca=Seat modelo=Ibiza matricula=B1234XD
+coches anyade marca=Seat modelo=Córdoba matricula=4456GVG
+coches anyade marca=Aston_Martin modelo=520 matricula=B1234XD
+coches anyade marca=Ford modelo=Fiesta matricula=2345FXZ
+coches anyade marca=Ford modelo=Escort matricula=4566GGH
+multas crea *matricula cuantía
+multas anyade matricula=B1234XD cuantía=100
+multas anyade matricula=2345FXZ cuantía=101
+multas anyade matricula=B1234XD cuantía=60
+coches busca marca=Seat
+coches busca marca#eat
+películas busca título#clar
+coches elimina modelo#i
+coches busca
+multas anyade año=1234
+salir
